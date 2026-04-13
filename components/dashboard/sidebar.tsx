@@ -101,13 +101,6 @@ export function Sidebar() {
         {/* Footer */}
         <div className="border-t border-border p-3">
           <div className="flex items-center justify-between px-3 py-2">
-            <Link
-              href="/configuracion"
-              className="flex items-center gap-3 text-sm font-medium text-sidebar-foreground/70 hover:text-sidebar-foreground transition-colors"
-            >
-              <Settings className="h-5 w-5" />
-              <span>Configuración</span>
-            </Link>
             <Button
               variant="ghost"
               size="icon"
